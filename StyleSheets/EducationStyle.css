@@ -1,0 +1,14 @@
+ul
+{
+	text-align: left;
+	list-style: none;
+}
+
+li:before
+{
+	display: inline-block;
+	padding: 0px 10px;
+	content:"\e084";
+	font-family:"Glyphicons Halflings";
+	float:left;
+}

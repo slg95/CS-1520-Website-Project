@@ -1,0 +1,54 @@
+p
+{
+	text-align: center;
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-top: 30px;
+}
+
+ul, li
+{
+	text-align: center;
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	
+}
+
+a
+{
+	color: black;
+}
+
+a:link
+{
+	color: black;
+}
+a:visited
+{
+	color:black;
+}
+
+a:hover
+{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+ul
+{
+	text-align: left;
+	list-style: none;
+	padding: 0;
+}
+
+li:before
+{
+	display: inline-block;
+	padding: 0px 10px;
+	content:"\e125";
+	font-family:"Glyphicons Halflings";
+	float:left;
+}
