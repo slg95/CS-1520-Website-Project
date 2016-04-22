@@ -1,0 +1,44 @@
+.btn-head 
+{
+	font-size: 16px;
+	margin-bottom: 14px;
+	line-height: normal;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;	
+	min-width: 100px;
+	max-width: 150px;
+}
+
+#header
+{
+	background-image: url("Background/dark_embroidery.png");
+	color: white; 
+	margin-bottom: 2%;
+	font-size: 20px;
+}
+
+body
+{
+	background-image: url("Background/concrete_seamless.png");
+	font-family:Garamond;
+	font-size: 16px;
+}
+
+p
+{
+	margin:20px;
+}
+
+h1
+{
+	margin:20px;
+	text-align: center;
+}
+
+img
+{
+	display:block;
+	max-height: 300px;
+	max-width: 300px;
+}
