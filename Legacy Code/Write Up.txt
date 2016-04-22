@@ -1,0 +1,22 @@
+﻿From part 1, I changed the Contact Me page, the database, the Home page, and all the pages’ margins. On the Contact Me page, I changed the form input validation to be done on the 
+client side in JavaScript instead of in PHP on the server side. After that, I changed to submit function to not reload the page. Instead, clicking submit sends the form data through and AJAX call to the new database I created. The new database had a few extra fields for email address, phone number, address, etc. Also, I updated the form dynamically, using JavaScript, based upon what the user clicked for method of contact and reason for contact. Originally, I had the database in the same file as the Contact Me page. I had to move the code and make small edits to allow for the updated database to work. 
+On the home page, I faded in the bullet points one at a time in a loop. In addition, I created a button that makes an API call to OpenWeatherMap and sends an alert to the user with
+some basic information about the current weather in Pittsburgh. I also changed the cookies to be set and read with JavaScript instead of PHP as in part 1. I also used JavaScript
+and JQuery both in include files and in an HTML file itself. 
+
+I fixed the margins to use percents instead of pixels. This way, when the window is resized, the dimensions still look good. Before, the website would not resize well and was unreadable
+unless the site was full screen. Furthermore, I made some formatting adjustments to make my code more readable.
+
+I am not entirely sure what I would implement with in a third phase of this project. I would first like to improve the interface to make everything look nicer. Right now the layout 
+looks good, but it is simple and effective. After that I would look into some features I could add using Ruby on Rails. Since I am not familiar with Ruby on Rails, this would be a 
+great learning experience for me. 
+
+Between part 1 and part 2, I learned how to use an API call to a real API, how to dynamically update a form, and how to do client-side form validation. Although I did make an API
+call in the extra credit assignment, this was much simpler and I did not need an access token. I had to sign up on the OpenWeatherMap website in order to receive a token number.
+I had to append the token number to the end of the URL in the AJAX call. Since I had already done AJAX calls to databases in the exercise for class, this part was easy. Updating 
+the form dynamically was also not too challenging. It ended up being a simple switch case and setting the inner HTML by the ID of the row in the table. The client side form validation 
+also was not too tricky thanks to the DOM. Providing the ID of the field it was easy to access the value in the form and check to see if it was NULL or not. 
+While I learned a lot from this project, I believe it could have been improved by being more specific. I was not entirely sure how I was being graded. If the expectations and 
+requirements were more explicit I would have felt more confident that I had included everything I needed. Also, I would have benefited from a few more suggestions of things to 
+implement. I am sure there are other cool features I could have implemented using just JavaScript, JQuery, and PHP with a small push in the right direction. Overall, I thought 
+the project went very well and provided me with some important skills in web development.  

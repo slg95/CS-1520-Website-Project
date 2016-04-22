@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
-		<meta charset = "utf-8">
-		<meta name = "viewport" content = "width=device-width, initial-scale = 1">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale = 1">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="http://localhost/Part2/StyleSheets/myStyle.css">
 		<title>Community Service</title>
@@ -16,14 +16,14 @@
 		<h1>My Community Service</h1>
 		
 		<!-- Container for centered text -->
-		<div class = "row" style="margin-bottom:50px">
-			<div class = "text-center col-md-6 col-md-offset-3">
+		<div class="row" style="margin-bottom:50px">
+			<div class="text-center col-md-6 col-md-offset-3">
 				<p>
 					Throughout my 3 years at the University of Pittsburgh I have had the opportuity to volunteer in a number of ways. 
 				</p>
 			</div>
 			
-			<div class = "col-md-6 col-md-offset-3">
+			<div class="col-md-6 col-md-offset-3">
 			<?php
 				//section for my Special Olympics volunteering
 				$text = "Every year, the Pittsburgh Swimming and Diving team hosts the Allegheny County Special Olympic Swim Meet.". 

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
-		<meta charset = "utf-8">
-		<meta name = "viewport" content = "width=device-width, initial-scale = 1">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale = 1">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 		<script src="../Includes/Scripts/Weather.js"></script>
@@ -29,8 +29,8 @@
 				
 				var i = 0;
 				$('li').each(function(){
-						$(this).delay(i*1000).fadeIn(1000);
-						i++;
+					$(this).delay(i*1000).fadeIn(1000);
+					i++;
 				});
 			});	
 		</script>
@@ -47,19 +47,19 @@
 		</div>
 		
 		<ul>
-			<li style="display:none;">
+			<li>
 				<a href="Education.php">
 					I am a very strong student. I am graduating in 3 years with an excellent GPA.
 				</a>
 			</li>
 			
-			<li style="display:none;">
+			<li>
 				<a href="AwardsAndHonors.php">
 					I am a student athelete. I am hard worker and I can work well with a team.
 				</a>
 			</li>	
 				
-			<li style="display:none;">
+			<li>
 				<a href="CommunityService.php">
 					I am highly involved with volunteering in my community.
 				</a>

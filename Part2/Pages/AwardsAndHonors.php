@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
-		<meta charset = "utf-8">
-		<meta name = "viewport" content = "width=device-width, initial-scale = 1">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale = 1">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="http://localhost/Part2/StyleSheets/myStyle.css">
 		<link rel="stylesheet" href="http://localhost/Part2/StyleSheets/AwardsStyle.css">
@@ -14,8 +14,8 @@
 		<h1>Awards & Honors</h1>
 		
 		<!-- Container for centered text section -->
-		<div class = "row" style="margin-bottom:50px">
-			<div class = "text-center col-md-6 col-md-offset-3">
+		<div class="row" style="margin-bottom:50px">
+			<div class="text-center col-md-6 col-md-offset-3">
 				<p>
 					As a member of the University of Pittsburgh Men's Swimming and Diving team, I have had many opportunities to 
 					be awarded for my athletic and acadmeic achievements. Here is a list of my most relevant awards:
@@ -23,7 +23,7 @@
 			</div>
 			
 			<!-- list of all my awards and honors -->
-			<div class ="col-md-6 col-md-offset-3">
+			<div class="col-md-6 col-md-offset-3">
 				<ul>
 					<li>ACC All-Academic Team 2014</li>
 					<li>ACC Academic Honor Roll 2013-14</li>

@@ -2,7 +2,7 @@
 <html lang = "en">
 	<head>
 		<meta charset = "utf-8">
-		<meta name = "viewport" content = "width=device-width, initial-scale = 1">
+		<meta name = "viewport" content="width=device-width, initial-scale = 1">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="http://localhost/Part2/StyleSheets/myStyle.css">
 		<title>Employment</title>
@@ -15,14 +15,14 @@
 		?>
 		<h1>My Employment History</h1>
 		<!--Container used to center text -->
-		<div class = "row">
-			<div class = "text-center col-md-6 col-md-offset-3">
+		<div class="row">
+			<div class="text-center col-md-6 col-md-offset-3">
 				<p>
 					While my employment is limited, below are the two jobs I have had:
 				</p>
 			</div>
 			
-			<div class = "col-md-6 col-md-offset-3">
+			<div class="col-md-6 col-md-offset-3">
 				<?php
 					//creates the section about my camp counselor job
 					

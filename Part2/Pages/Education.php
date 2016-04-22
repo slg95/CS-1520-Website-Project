@@ -14,8 +14,8 @@
 		<h1>Education</h1>
 		
 		<!-- Container for simple centered text -->
-		<div class = "row">
-			<div class = "col-md-6 col-md-offset-3">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
 				<p>
 					I have studied Computer Science at the University of Pittsburgh since August 2013 and I am graduating this Spring, 2016. 
 					I will graduate with a major in Computer Science and a Related Area in Mathematics. I am looking to begin graduate school
