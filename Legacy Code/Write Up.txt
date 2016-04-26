@@ -2,7 +2,7 @@
 client side in JavaScript instead of in PHP on the server side. After that, I changed to submit function to not reload the page. Instead, clicking submit sends the form data through and AJAX call to the new database I created. The new database had a few extra fields for email address, phone number, address, etc. Also, I updated the form dynamically, using JavaScript, based upon what the user clicked for method of contact and reason for contact. Originally, I had the database in the same file as the Contact Me page. I had to move the code and make small edits to allow for the updated database to work. 
 On the home page, I faded in the bullet points one at a time in a loop. In addition, I created a button that makes an API call to OpenWeatherMap and sends an alert to the user with
 some basic information about the current weather in Pittsburgh. I also changed the cookies to be set and read with JavaScript instead of PHP as in part 1. I also used JavaScript
-and JQuery both in include files and in an HTML file itself. 
+and JQuery both in include files and in an HTML file itself. In addition, I added an image carousel to the Awards and Honors page using slick. 
 
 I fixed the margins to use percents instead of pixels. This way, when the window is resized, the dimensions still look good. Before, the website would not resize well and was unreadable
 unless the site was full screen. Furthermore, I made some formatting adjustments to make my code more readable.

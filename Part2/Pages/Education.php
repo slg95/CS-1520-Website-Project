@@ -4,13 +4,13 @@
 		<meta charset = "utf-8">
 		<meta name = "viewport" content = "width=device-width, initial-scale = 1">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<link rel="stylesheet" href="http://localhost/Part2/StyleSheets/myStyle.css">
-		<link rel="stylesheet" href="http://localhost/Part2/StyleSheets/EducationStyle.css">
+		<link rel="stylesheet" href="../StyleSheets/myStyle.css">
+		<link rel="stylesheet" href="../StyleSheets/EducationStyle.css">
 		<title>Education</title>
 	</head>
 
 	<body>
-		<?php include("../Includes/Header.php"); ?>
+		<?php include("../Includes/PHP/Header.php"); ?>
 		<h1>Education</h1>
 		
 		<!-- Container for simple centered text -->

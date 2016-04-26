@@ -4,16 +4,16 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale = 1">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../StyleSheets/myStyle.css">
+		<link rel="stylesheet" href="../StyleSheets/ContactStyle.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 		<script src="../Includes/Scripts/jquery.cookie.js"></script>
-		<link rel="stylesheet" href="http://localhost/Part2/StyleSheets/myStyle.css">
-		<link rel="stylesheet" href="http://localhost/Part2/StyleSheets/ContactStyle.css">
 		<title>Contact Me</title>
 	</head>
 
 	<body>
 		<?php 
-			include("../Includes/Header.php"); 
+			include("../Includes/PHP/Header.php"); 
 		?>
 		<h1>Contact me!</h1>
 		<!-- Simple form that submits to my database using the POST method -->

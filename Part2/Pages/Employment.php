@@ -4,14 +4,14 @@
 		<meta charset = "utf-8">
 		<meta name = "viewport" content="width=device-width, initial-scale = 1">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<link rel="stylesheet" href="http://localhost/Part2/StyleSheets/myStyle.css">
+		<link rel="stylesheet" href="../StyleSheets/myStyle.css">
 		<title>Employment</title>
 	</head>
 
 	<body>
 		<?php 
-			include("../Includes/Header.php"); 
-			include("../Includes/buildSection.php")
+			include("../Includes/PHP/Header.php"); 
+			include("../Includes/PHP/buildSection.php")
 		?>
 		<h1>My Employment History</h1>
 		<!--Container used to center text -->

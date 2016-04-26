@@ -4,17 +4,17 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale = 1">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../StyleSheets/myStyle.css">
+		<link rel="stylesheet" href="../StyleSheets/HomeStyle.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 		<script src="../Includes/Scripts/Weather.js"></script>
 		<script src="../Includes/Scripts/jquery.cookie.js"></script>
-		<link rel="stylesheet" href="../StyleSheets/myStyle.css">
-		<link rel="stylesheet" href="../StyleSheets/HomeStyle.css">
 		<title>Home</title>
 		
 	</head>
 
 	<body>
-		<?php include("../Includes/Header.php"); ?>
+		<?php include("../Includes/PHP/Header.php"); ?>
 		<h1>Hello and Welcome to Spencer Gray's Personal Website!</h1>
 	
 		<script type='text/javascript'>
