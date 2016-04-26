@@ -4,13 +4,15 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale = 1">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<link rel="stylesheet" href="http://localhost/Part2/StyleSheets/myStyle.css">
-		<link rel="stylesheet" href="http://localhost/Part2/StyleSheets/AwardsStyle.css">
+		<link rel="stylesheet" href="../StyleSheets/myStyle.css">
+		<link rel="stylesheet" href="../StyleSheets/AwardsStyle.css">
+		<link rel="stylesheet" href="../Includes/slick/slick.css"/>
+		<link rel="stylesheet" href="../Includes/slick/slick-theme.css"/>
 		<title>Awards And Honors</title>
 	</head>
 
 	<body>
-		<?php include("../Includes/Header.php"); ?>
+		<?php include("../Includes/PHP/Header.php"); ?>
 		<h1>Awards & Honors</h1>
 		
 		<!-- Container for centered text section -->
@@ -36,15 +38,31 @@
 					<li>USA Swimming Winter National Qualifier 2014, 2015</li>
 				</ul>
 				<br/>
-			<!-- Table of 3 pictures to accompany my awards and honors -->
-			<table>
-				<tr>
-					<td><a href="http://www.theacc.com/sport/c-swim"><img src="../Images/ACC.jpg"></a></td>
-					<td><a href="http://www.pittsburghpanthers.com/sports/c-swim/mtt/spencer_gray_862343.html"><img src="../Images/Swimming.jpeg"></a></td>
-					<td><a href="http://upe.acm.org/"><img src="../Images/UPE.jpg"></a></td>
-				</tr>
-			</table>
+			
+			<div class="slides">
+				<div>
+					<a href="http://www.theacc.com/sport/c-swim"><img src="../Images/ACC.jpg"></a>
+				</div>
+				
+				<div>
+					<a href="http://www.pittsburghpanthers.com/sports/c-swim/mtt/spencer_gray_862343.html"><img src="../Images/Swimming.jpeg"></a>
+				</div>
+				
+				<div>
+					<a href="http://upe.acm.org/"><img src="../Images/UPE.jpg"></a>
+				</div>
 			</div>
+			
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+			<script type="text/javascript" src="../Includes/slick/slick.min.js"></script>
+			
+			<script type="text/javascript">
+				$(document).ready(function(){
+				  $('.slides').slick({
+					  autoplay: true,
+					  autoplaySpeed: 3000,
+				  });
+				});
+			</script>
 	</body>
-
 </html>
